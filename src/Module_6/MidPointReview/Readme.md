@@ -189,6 +189,22 @@
 ### c) this(speed)        
 ### d)  You cannot call a constructor from within another constructor.
 
+# 11- Explain the error resulted from this code and indicate how to fix it: Do not use JAVA IDE for this problem.
+hint: explain the context of constructors. 
 
+public class Shape {
+        private String shType;   
+        public Shape(String type) {
+               shType = type; 
+          }
+}
 
+public class Circle extends Shape{
+                 private String shType;
+                 public Circle(String t) {
+                         shType = t;
+               }
+}
+
+test
 
