@@ -1,6 +1,6 @@
 # Activity #1
 
-## You must pair up with another person (your group-mate) to complete this activity. 
+##### You must pair up with another person (your group-mate) to complete this activity. 
 
 ## You are to create a well-designed, efficient, object-oriented solution to maintain information for a company that sells Human Resources software systems. The Sales Company can have as many as 100 employees. Each employee can sell as many as 1000 software systems to different companies.
 
