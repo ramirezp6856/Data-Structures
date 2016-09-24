@@ -146,7 +146,7 @@
 ### c) public class Vehicle extends Car { }
 ### d) There is nothing wrong with the code.
 
-# 7 Which type of exception should be used for the blank in the following code?
+# 7. Which type of exception should be used for the blank in the following code?
 
     public implementation{
     
@@ -191,7 +191,7 @@
 ### c) this(speed)        
 ### d)  You cannot call a constructor from within another constructor.
 
-# 11- Explain the error resulted from this code and indicate how to fix it: Do not use JAVA IDE for this problem.
+# 11. Explain the error resulted from this code and indicate how to fix it: Do not use JAVA IDE for this problem.
 
 ### hint: explain the context of constructors. 
 
@@ -214,6 +214,39 @@
         
         }
     }
+    
+# 12. What is the order of each of the following tasks? (Choose from O (1), O (log2 n ), O (n ), O (n  log2 n ), O (n2 ), O (2n ); each order may appear more than once.)
+    a) Popping all items off a stack containing n items.
+    b) Performing a bubble sort on an array of n integers, in the worst case.
+    c) Displaying all n elements in a sorted linked list.
+    d) Performing a binary search of a sorted array of n strings, in the worst case.
 
+# 13. In selectionsort for n elements, how many times the swap function is called?
+    a) 1  		 
+    b) n-1  		 
+    c) nlogn 	
+    d) n2
+    
+# 14. Which stack operations could result in stack overflow?
 
+# 15. Here is an array with exactly 15 elements:
+    1   2   3   4   5   6   7   8   9   10   11   12   13   14   15  
+
+### Suppose that we are doing a binary search for an element. Indicate any elements that will be found by examining two or fewer numbers from the array. Explain your answer.
+
+# 16. How is the linked-list implementation of a stack different from that of a queue in terms of the following operations: 
+    - push vs. enqueue
+    - pop vs. dequeue
+
+### Please explain your answer through code, using the following data definition class:
+
+    public class Node{
+    
+	    int data; 
+	 
+	    Node next; 
+	
+	    public Node (int d, Node node){ data = d;   next = node;}
+    
+    }
 
