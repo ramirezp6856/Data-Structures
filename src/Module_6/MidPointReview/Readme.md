@@ -35,7 +35,7 @@
         public void addToValue(int toAdd) {int value += toAdd;}
     }
     
-# 3. Write a method to read the content of a file with attributes address, price, and status(see below).
+## 3. Write a method to read the content of a file with attributes address, price, and status(see below).
 
     1000 Stafford,Fairfax,va ; $450000 ; active
     1234 Cotswolds lane, Fairfax ,va; $480000 ; active
@@ -79,12 +79,12 @@
 
 ## Indicate the complexity of your method for n lines of data. You should explain the steps you used to obtain such complexity (Big-O).
 
-# 4. Identify the type of UML diagram in the picture below. Explain the semantics of nodes and the edges, and explain how does every node get activated in the diagram in the context of the type of UML diagram being used.
+## 4. Identify the type of UML diagram in the picture below. Explain the semantics of nodes and the edges, and explain how does every node get activated in the diagram in the context of the type of UML diagram being used.
 
 ![UML](https://github.com/ramirezp6856/Data-Structures/blob/master/src/Module_6/MidPointReview/umlDiagramForNum4.PNG)
 
 
-# 5. Which of the following options best describes the relationship between the following classes?
+## 5. Which of the following options best describes the relationship between the following classes?
     
     public class Appliance{
         
@@ -124,7 +124,7 @@
 ### c) polymorphism         
 ### d) inheritance
 
-# 6. Identify the problem in the following code and propose how to solve them. 
+## 6. Identify the problem in the following code and propose how to solve them. 
 
     public interface Colorable{ }
     
@@ -146,7 +146,7 @@
 ### c) public class Vehicle extends Car { }
 ### d) There is nothing wrong with the code.
 
-# 7. Which type of exception should be used for the blank in the following code?
+## 7. Which type of exception should be used for the blank in the following code?
 
     public implementation{
     
@@ -170,11 +170,11 @@
 ### c)	NullPointerException
 ### d)	ClassDefNotFoundException
 
-# 8. Is it possible for a polymorphic subclass to implement more than one interface? Explain with an example.
+## 8. Is it possible for a polymorphic subclass to implement more than one interface? Explain with an example.
 
-# 9. (T/F) An abstract class is a class that contains at least one abstract method. 
+## 9. (T/F) An abstract class is a class that contains at least one abstract method. 
 
-# 10. Insert the missing code in the following code fragment. This fragment is intended to initialize an instance variable.
+## 10. Insert the missing code in the following code fragment. This fragment is intended to initialize an instance variable.
 
     public class Motor 
     { 
@@ -191,7 +191,7 @@
 ### c) this(speed)        
 ### d)  You cannot call a constructor from within another constructor.
 
-# 11. Explain the error resulted from this code and indicate how to fix it: Do not use JAVA IDE for this problem.
+## 11. Explain the error resulted from this code and indicate how to fix it: Do not use JAVA IDE for this problem.
 
 ### hint: explain the context of constructors. 
 
@@ -215,26 +215,26 @@
         }
     }
     
-# 12. What is the order of each of the following tasks? (Choose from O (1), O (log2 n ), O (n ), O (n  log2 n ), O (n2 ), O (2n ); each order may appear more than once.)
+## 12. What is the order of each of the following tasks? (Choose from O (1), O (log2 n ), O (n ), O (n  log2 n ), O (n2 ), O (2n ); each order may appear more than once.)
     a) Popping all items off a stack containing n items.
     b) Performing a bubble sort on an array of n integers, in the worst case.
     c) Displaying all n elements in a sorted linked list.
     d) Performing a binary search of a sorted array of n strings, in the worst case.
 
-# 13. In selectionsort for n elements, how many times the swap function is called?
+## 13. In selectionsort for n elements, how many times the swap function is called?
     a) 1  		 
     b) n-1  		 
     c) nlogn 	
     d) n2
     
-# 14. Which stack operations could result in stack overflow?
+## 14. Which stack operations could result in stack overflow?
 
-# 15. Here is an array with exactly 15 elements:
+## 15. Here is an array with exactly 15 elements:
     1   2   3   4   5   6   7   8   9   10   11   12   13   14   15  
 
 ### Suppose that we are doing a binary search for an element. Indicate any elements that will be found by examining two or fewer numbers from the array. Explain your answer.
 
-# 16. How is the linked-list implementation of a stack different from that of a queue in terms of the following operations: 
+## 16. How is the linked-list implementation of a stack different from that of a queue in terms of the following operations: 
     - push vs. enqueue
     - pop vs. dequeue
 
