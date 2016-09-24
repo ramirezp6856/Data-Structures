@@ -81,6 +81,8 @@
 
 # 4. Identify the type of UML diagram in the picture below. Explain the semantics of nodes and the edges, and explain how does every node get activated in the diagram in the context of the type of UML diagram being used.
 
+![UML](https://github.com/ramirezp6856/Data-Structures/blob/master/src/Module_6/MidPointReview/umlDiagramForNum4.PNG)
+
 
 # 5. Which of the following options best describes the relationship between the following classes?
     
